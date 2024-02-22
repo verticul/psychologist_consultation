@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&family=Rosarivo&family=Sniglet&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 4rem 2.5rem !important;
+}
+
+.green-bg {
+    background: #5E7962;
+}
+
+.white-bg {
+    background: #FFFCF7;
+}
+
+.grey-bg {
+    background: #EEEEEE;
+}
+
+.check-points .heading-18 {
+    color: #5E7962;
+}
+
+.green-bg h3{
+    color: #F2F5F2;
+}
+
+.green-bg p {
+    color: #F2F5F2;  
+}
+
+.heading-40 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5E7962;
+    margin-bottom: 2rem;
+}
+
+.heading-36 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5E7962;
+    margin-bottom: 2rem;
+}
+
+.heading-32 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5E7962;
+    margin-bottom: 1.5rem;
+}
+
+.heading-24 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #5E7962;
+}
+
+.heading-18 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 265px;
+    margin-bottom: 0.6rem;
+    margin-top: 0.2rem;
+}
+
+.para-16 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2B2B2B;
+}
+
+.hero p {
+    color: #F2F5F2 !important;
+}
+
+.hero h3 {
+    color: #F2F5F2 !important;
+}
+
+.assessments {
+    margin-top: 1rem
+}
+
+.assessment {
+    margin-bottom: 1.5rem;
+}
+
+button {
+    margin-top: 2rem;
+    background-color: #8CB5BA;
+    border: none; /* Remove default border */
+    outline: none; /* Remove outline */
+    padding: 0.7rem 1rem;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.footer .header {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.thin {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer div {
+    margin-bottom: 1rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.links a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #5E7962;
+    margin-bottom: 0.5rem;
+}
+
+.break-line {
+    background: black;
+    height: 0.85px;
+    width: 100%;
+    margin-top: 2.3rem;
+    margin-bottom: 1.2rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.info .underline {
+    margin-bottom: 0.2rem;
+}
+
+.copyright {
+    margin-top: 2rem;
+}
+
+.footer h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.FAQs {
+    text-align: center !important;
+}
+
+.FAQs H2 {
+    text-align: center;
+}
+
+.FAQs p {
+    text-align: center;
+}
+
+.para-question {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left !important;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.question img {
+    height: 1rem;
+    width: 1rem;
+    margin: 0
+}
+
+.questions {
+    margin-top: 2rem;
+}
+
+.comment {
+
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.paragraph-block p{
+    margin-bottom: 1rem
+}
+
+.hero-image {
+    margin: 0;
+}
