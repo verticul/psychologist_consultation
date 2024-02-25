@@ -277,8 +277,7 @@ text-align: center;
 .step {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.5rem;
-    height: 244px;
+    margin-bottom: 2rem;
 }
 
 .step svg {
