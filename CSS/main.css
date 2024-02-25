@@ -283,3 +283,13 @@ text-align: center;
 .step svg {
     margin-bottom: 0.5rem;
 }
+
+.outlined-section {
+    text-align: center;
+    border: 1px #F2F5F2 solid;
+    padding: 1.5rem 2.5rem;
+}
+
+.outlined-section * {
+    text-align: center;
+}
