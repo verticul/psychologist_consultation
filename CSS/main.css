@@ -403,4 +403,22 @@ img {
     .check-points h3{
         margin-bottom: 4.5rem;
     }
+
+    .image-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .image-right img{
+        width: 40%;
+    }
+
+    .image-right div{
+        width: 45%;
+    }
+
+    .image-right h3{
+        font-size: 40px;
+    }
   }
