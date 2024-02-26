@@ -6,6 +6,64 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body, html {
+    height: 100%;
+  }
+
+.hero-image {
+    background-image: url('../Assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h3 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero-text p {
+font-size: 1.5em;
+}
+
+/* CSS to style the banner and text */
+.banner {
+    background-image: url('../Assets/bus-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 33%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-text {
+    z-index: 1;
+  }
+  
+  .banner-text h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .banner-text p {
+    font-size: 1em;
+  }
+  
+
 section {
     padding: 4rem 2.5rem !important;
 }
@@ -412,7 +470,6 @@ img {
 
     .image-right img{
         width: 40%;
-        height: 100%;
     }
 
     .image-right div{

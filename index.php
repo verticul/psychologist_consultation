@@ -13,12 +13,18 @@
         <h3 class="heading-40 white">Welcome to Psychological Consultations</h3>    
         <p class="para-16">"We provide expert Autism and ADHD Assessments for Adults and Children</p> 
         -->
-        <img class="hero-image" src="./Assets/hero-image.png" alt="">
-
-    <section class="white-bg">
-        <h3 class="heading-36 green-text">We offer Assessments for ASD (Autism Spectrum Disorder), and ADHD (Attention Deficit Hyperactivity Disorder). </h3>
-        <p class="para-16">Our services are tailored to meet the needs of adults and children (aged 5 and upwards). We help you find the answers you need, so you can secure the right type of help. </p>
-        <img src="Assets/doctor-child.png" alt="">
+    <div class="hero-image">
+        <div class="hero-text">
+            <h3>Welcome to Psychological Consultations</h3>
+            <p>We provide expert Autism and ADHD Assessments for Adults and Children</p>
+        </div>
+    </div>
+    <section class="white-bg image-right">
+        <div>
+            <h3 class="heading-36 green-text">We offer Assessments for ASD (Autism Spectrum Disorder), and ADHD (Attention Deficit Hyperactivity Disorder). </h3>
+            <p class="para-16">Our services are tailored to meet the needs of adults and children (aged 5 and upwards). We help you find the answers you need, so you can secure the right type of help. </p>
+        </div>
+        <img src="Assets/Stock Images/iStock-1353223679.jpg" alt="">
     </section>
     <section class="grey-bg check-points">
         <h3 class="heading-36 green-text">Types of assessments</h3>
@@ -131,33 +137,41 @@
         <p class="para-16">Contact us for more information.</p>
         <button>Get in touch</button>
     </section>
-    <section class="green-bg">
-        <h3 class="heading-36 ">Discover the <br>answers you <br>need</h3>
-        <p class="para-16">Unlock your potential with our expert assessments </p>
-        <button>Get In Touch</button>
+    <section class="green-bg discover_answers">
+        <div>
+            <h3 class="heading-36 ">Discover the <br class="br-desktop">answers you <br class="br-desktop">need</h3>
+            <p class="para-16">Unlock your potential with our expert assessments </p>
+            <button>Get In Touch</button>
+        </div>
         <img src="./Assets/headphones.png" alt="" srcset="">
     </section>
     <section class="footer white-bg">
-        <h4 class="logo">Logo</h4>
-        <div>
-            <p class="header">Address:</p>
-            <p class="thin">123 Main Street, London, UK</p>
-        </div>
-        <div>
-            <p class="header">Contact:</p>
-            <p class="thin underline">+44 123 4567</p>
-            <p class="thin underline">info@psychologicalconsultations.com</p>
-        </div>
-        <div class="links">
-            <a href="#">Services</a>
-            <a href="#">Contact Us</a>
-            <a href="#">FAQS</a>
-            <a href="#">Blog</a>
+        <div class="top-footer">
+            <div class="contact-info">
+                <h4 class="logo">Logo</h4>
+                <div class="address">
+                    <p class="header">Address:</p>
+                    <p class="thin">123 Main Street, London, UK</p>
+                </div>
+                <div>
+                    <p class="header">Contact:</p>
+                    <p class="thin underline">+44 123 4567</p>
+                    <p class="thin underline">info@psychologicalconsultations.com</p>
+                </div>
+            </div>
+            <div class="links">
+                <a href="#">Services</a>
+                <a href="#">Contact Us</a>
+                <a href="#">FAQS</a>
+                <a href="#">Blog</a>
+            </div>
         </div>
         <div class="break-line"></div>
         <div class="info">
-            <p class="thin underline">Privacy Policy</p>
-            <p class="thin underline">Terms & Conditions</p>
+            <div class="terms_policy">
+                <p class="thin underline">Privacy Policy</p>
+                <p class="thin underline">Terms & Conditions</p>
+            </div>
             <p class="thin copyright">© 2023 Psychological Consultations. All rights reserved.</p>
         </div>
     </section>
