@@ -123,6 +123,7 @@ button {
     outline: none; /* Remove outline */
     padding: 0.7rem 1rem;
     font-weight: 500;
+    border-radius: 4px;
 }
 
 img {
@@ -310,3 +311,82 @@ img {
 .outlined-section * {
     text-align: center;
 }
+
+.discover_answers {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Media Query for Desktops */
+@media only screen and (min-width: 1024px) {
+    /* Styles for desktops and larger */
+
+    .discover_answers{
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .heading-36{
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .para-16 {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .discover_answers img {
+        width: 50%;
+    }
+
+    .br-desktop {
+        display: none;
+    }
+
+    .top-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .links {
+        margin-right: 1rem;
+    }
+
+    .address {
+        margin-bottom: 2rem;
+    }
+
+    .terms_policy{
+        display: flex;
+    }
+
+    .terms_policy p {
+        margin-left: 1rem;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .copyright {
+        margin: 0
+    }
+
+    .FAQs {
+        text-align: center !important;
+        padding: 4rem 13rem !important;
+    }
+  }
