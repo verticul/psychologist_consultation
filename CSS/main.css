@@ -412,13 +412,20 @@ img {
 
     .image-right img{
         width: 40%;
+        height: 100%;
     }
 
     .image-right div{
-        width: 45%;
+        width: 50%;
     }
 
-    .image-right h3{
-        font-size: 40px;
+    .image-right .heading-36{
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 1rem !important;
     }
   }
