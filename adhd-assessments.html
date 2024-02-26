@@ -119,26 +119,49 @@
     </section>
     <section class="comments white-bg">
         <p class="comment">It’s been really worthwhile knowing that we are going through this process and we know that it’s being done properly by experts.</p>
+    </section>
+    <section class="white-bg FAQs">
+        <H2 class="heading-36">FAQS</H2>
+        <p class="para-16">Find answers to common questions and concerns about our services and assessments.</p>
         <div class="questions">
-            <div class="question">
-                <p class="para-question">How is ADHD diagnosed</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">
+                    <p class="para-question">How is ADHD diagnosed?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(1)">
+                </div>
+                <div class="answer">
+                    <p class="para-16">We use clinical interviews, observations and information from informants (parents, siblings
+                        or friends). When we have gathered this information, we consider other issues that could
+                        be affecting you, such as anxiety or depression. We then consider DSM IV criteria to see if
+                        criteria has been met.</p>
+                </div>
             </div>
-            <div class="question">
-                <p class="para-question">What are the treatment options for ADHD</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">                
+                    <p class="para-question">What are the treatment options for ADHD? 
+                    </p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(2)">
+                </div>
+                <div class="answer">
+                    <p class="para-16" style="font-size: 14px;">Local NHS ADHD services can offer medication and/or behavioural strategies. Medication
+                        and behavioural strategies can also be accessed via private psychiatrists and
+                        psychologists working in ADHD.</p>
+                </div>
             </div>
-            <div class="question">
-                <p class="para-question">how can I book an assessment</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
-            </div>
-            <div class="question">
-                <p class="para-question">What is your cancellation <br>policy?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">                
+                    <p class="para-question">How can I book an assessment?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(3)">
+                </div>
+                <div class="answer">
+                    <p class="para-16">Assessments can be booked directly by phone on 0207 100 2990. Alternatively, please fill
+                        in the contact form on our website or email us at: enquiries@psychologicalconsultations.com
+                    </p>
+                </div>
             </div>
         </div>
         <h4 class="heading-24">Still have questions?</h4>
-        <p class="para-16">Schedule an appointment or contact us for more information</p>
+        <p class="para-16">Contact us for more information.</p>
         <button>Get in touch</button>
     </section>
     <section class="green-bg">
@@ -171,4 +194,15 @@
             <p class="thin copyright">© 2023 Psychological Consultations. All rights reserved.</p>
         </div>
     </section>
+    <script>
+        function toggleAnswer(questionNumber) {
+            var answer = document.querySelectorAll('.answer')[questionNumber - 1];
+            if (answer.style.display === 'none') {
+                answer.style.display = 'block';
+            } else {
+                answer.style.display = 'none';
+            }
+        }
+    </script>
 </body>
+</html>

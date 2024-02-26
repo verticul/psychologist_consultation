@@ -13,7 +13,7 @@
         <h3 class="heading-40 white">Welcome to Psychological Consultations</h3>    
         <p class="para-16">"We provide expert Autism and ADHD Assessments for Adults and Children</p> 
         -->
-        <img class="hero-image" src="./Assets/hero-image.png" alt="" srcset="">
+        <img class="hero-image" src="./Assets/hero-image.png" alt="">
 
     <section class="white-bg">
         <h3 class="heading-36 green-text">We offer Assessments for ASD (Autism Spectrum Disorder), and ADHD (Attention Deficit Hyperactivity Disorder). </h3>
@@ -88,24 +88,43 @@
             <div class="question_container">
                 <div class="question">
                     <p class="para-question">What services do you offer?</p>
-                    <img src="./Assets/plus.png" alt="" srcset="">
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(1)">
                 </div>
                 <div class="answer">
                     <p class="para-16">We offer ASD, ADHD and combined ASD and ADHD assessments, for adults and
-children.</p>
+                    children.</p>
                 </div>
             </div>
             <div class="question_container">
-                <p class="para-question">How can I book an assessment?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+                <div class="question">                
+                    <p class="para-question">How can I book an assessment?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(2)">
+                </div>
+                <div class="answer">
+                    <p class="para-16" style="font-size: 14px;">Assessments can be booked directly by phone on 0207 100 2990. Alternatively, please fill
+                        in the contact form on our website or email us at: enquiries@psychologicalconsultations.com </p>
+                </div>
             </div>
             <div class="question_container">
-                <p class="para-question">Do you accept insurance?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+                <div class="question">                
+                    <p class="para-question">Do you accept insurance?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(3)">
+                </div>
+                <div class="answer">
+                    <p class="para-16">Unfortunately, we are unable to accept health insurance payments for our assessments. 
+                    </p>
+                </div>
             </div>
             <div class="question_container">
-                <p class="para-question">What is your cancellation <br>policy?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+                <div class="question">                
+                    <p class="para-question">What is your cancellation <br>policy?</p>                    
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(4)">
+                </div>
+                <div class="answer">
+                    <p class="para-16" style="font-size: 14px;">We have a 48-hour cancellation policy so that appointments can be offered to those
+                        waiting with enough notice. Notice that is given at less than 48 hours’ notice is charged at
+                        full fee.</p>
+                </div>
             </div>
         </div>
         <h4 class="heading-24">Still have questions?</h4>
@@ -142,5 +161,16 @@ children.</p>
             <p class="thin copyright">© 2023 Psychological Consultations. All rights reserved.</p>
         </div>
     </section>
+
+    <script>
+        function toggleAnswer(questionNumber) {
+            var answer = document.querySelectorAll('.answer')[questionNumber - 1];
+            if (answer.style.display === 'none') {
+                answer.style.display = 'block';
+            } else {
+                answer.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>

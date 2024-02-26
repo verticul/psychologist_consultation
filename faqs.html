@@ -14,34 +14,83 @@
         <p class="para-16">"We provide expert Autism and ADHD Assessments for Adults and Children</p> 
         -->
         <img class="hero-image" src="./Assets/faqs.png" alt="">
-    <section class="white-bg FAQs">
-        <div class="questions">
-            <div class="question">
-                <p class="para-question">Are assessments accepted by the NHS, education settings and employers?</p>
-                <img src="./Assets/plus.png" alt="">
+        <section class="white-bg FAQs">
+            <H2 class="heading-36">FAQS</H2>
+            <p class="para-16">Find answers to common questions and concerns about our services and assessments.</p>
+            <div class="questions">
+                <div class="question_container">
+                    <div class="question">
+                        <p class="para-question">Are assessments accepted by the NHS, education settings and employers? 
+                        </p>
+                        <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(1)">
+                    </div>
+                    <div class="answer">
+                        <p class="para-16">Our assessments are always completed by HCPC registered, experienced clinicians.
+                            Reports follow gold standard recommended methods and meet NICE guidelines.</p>
+                    </div>
+                </div>
+                <div class="question_container">
+                    <div class="question">
+                        <p class="para-question">Do I need a referral? 
+                        </p>
+                        <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(2)">
+                    </div>
+                    <div class="answer">
+                        <p class="para-16">You do not need a referral to access our services. Simply call us directly by phone on 0207
+                            100 2990. Alternatively, please fill in the contact form on our website or email us at:
+                            enquiries@psychological-consultations.com</p>
+                    </div>
+                </div>
+                <div class="question_container">
+                    <div class="question">
+                        <p class="para-question">How do I make payment? 
+                        </p>
+                        <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(3)">
+                    </div>
+                    <div class="answer">
+                        <p class="para-16">Payments are made via bank transfer and are taken at the point of booking an
+                            assessment.</p>
+                    </div>
+                </div>
+                <div class="question_container">
+                    <div class="question">
+                        <p class="para-question">Where will my face-to-face sessions take place? 
+                        </p>
+                        <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(4)">
+                    </div>
+                    <div class="answer">
+                        <p class="para-16">Face to face sessions will take place at our clinic, 89 Fleet Street, London EC4Y 1DH. If
+                            you live outside London; you will be able to complete your assessment by completing
+                            one visit at our Fleet Street clinic and having the rest of your sessions online. </p>
+                    </div>
+                </div>
+                <div class="question_container">
+                    <div class="question">
+                        <p class="para-question">How do I attend online sessions? 
+                        </p>
+                        <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(5)">
+                    </div>
+                    <div class="answer">
+                        <p class="para-16">You will be sent a secure link for online sessions. You will only need a computer or phone
+                            with internet access. </p>
+                    </div>
+                </div>
+                <div class="question_container">
+                    <div class="question">
+                        <p class="para-question">What happens after the assessment is completed? 
+                        </p>
+                        <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(6)">
+                    </div>
+                    <div class="answer">
+                        <p class="para-16">You will receive a report detailing the information we gathered during the assessment
+                            process. This will also include diagnostic decisions and recommendations.</p>
+                    </div>
+                </div>
             </div>
-            <div class="question">
-                <p class="para-question">Do I need a referral?</p>
-                <img src="./Assets/plus.png" alt="">
-            </div>
-            <div class="question">
-                <p class="para-question">How do I make payment?</p>
-                <img src="./Assets/plus.png" alt="">
-            </div>
-            <div class="question">
-                <p class="para-question">Where will my face-to-face sessions take place?<br>policy?</p>
-                <img src="./Assets/plus.png" alt="">
-            </div>
-            <div class="question">
-                <p class="para-question">How do I attend online sessions?<br>policy?</p>
-                <img src="./Assets/plus.png" alt="">
-            </div>
-            <div class="question">
-                <p class="para-question">What happens after the assessment is completed?<br>policy?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
-            </div>
-        </div>
-    </section>
+            <h4 class="heading-24">Still have questions?</h4>
+            <p class="para-16">Contact us for more information.</p>
+            <button>Get in touch</button>
+        </section>
     <section class="green-bg">
         <h3 class="heading-36 ">Discover the <br>answers you <br>need</h3>
         <p class="para-16">Unlock your potential with our expert assessments </p>
@@ -72,5 +121,15 @@
             <p class="thin copyright">© 2023 Psychological Consultations. All rights reserved.</p>
         </div>
     </section>
+    <script>
+        function toggleAnswer(questionNumber) {
+            var answer = document.querySelectorAll('.answer')[questionNumber - 1];
+            if (answer.style.display === 'none') {
+                answer.style.display = 'block';
+            } else {
+                answer.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>

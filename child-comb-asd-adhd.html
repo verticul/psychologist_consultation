@@ -109,21 +109,47 @@
         <H2 class="heading-36">FAQS</H2>
         <p class="para-16">Find answers to common questions and concerns about our services and assessments.</p>
         <div class="questions">
-            <div class="question">
-                <p class="para-question">What services do you offer?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">
+                    <p class="para-question">Can my child have a diagnosis of ASD and ADHD?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(1)">
+                </div>
+                <div class="answer">
+                    <p class="para-16">Your child can have a diagnosis of ADHD and ASD. Our clinicians ensure there is sufficient
+                        evidence of both conditions and that all diagnostic criteria are met. Other issues such as
+                        anxiety or low mood are also considered in this process.</p>
+                </div>
             </div>
-            <div class="question">
-                <p class="para-question">How can I book an assessment?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">                
+                    <p class="para-question">How long does the assessment process take?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(2)">
+                </div>
+                <div class="answer">
+                    <p class="para-16" style="font-size: 14px;">The assessment process takes a matter of weeks. The exact length of time depends on
+                        your availability and ours. We offer weekend appointments where available, in order to be
+                        make the process easier for families. 
+                        </p>
+                </div>
             </div>
-            <div class="question">
-                <p class="para-question">Do you accept insurance?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">                
+                    <p class="para-question">How can I book an assessment? </p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(3)">
+                </div>
+                <div class="answer">
+                    <p class="para-16">Assessments can be booked directly by phone on 0207 100 2990. Alternatively, please fill
+                        in the contact form on our website or email us at: enquiries@psychologicalconsultations.com</p>
+                </div>
             </div>
-            <div class="question">
-                <p class="para-question">What is your cancellation <br>policy?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">                
+                    <p class="para-question">How can I book an assessment? </p>                    
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(4)">
+                </div>
+                <div class="answer">
+                    <p class="para-16" style="font-size: 14px;">Please fill in the contact form on our website or email us at: enquiries@psychologicalconsultations.com. You can also call us on 0207 100 2990 to book an assessment.</p>
+                </div>
             </div>
         </div>
         <h4 class="heading-24">Still have questions?</h4>
@@ -160,5 +186,15 @@
             <p class="thin copyright">© 2023 Psychological Consultations. All rights reserved.</p>
         </div>
     </section>
+    <script>
+        function toggleAnswer(questionNumber) {
+            var answer = document.querySelectorAll('.answer')[questionNumber - 1];
+            if (answer.style.display === 'none') {
+                answer.style.display = 'block';
+            } else {
+                answer.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>

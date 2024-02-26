@@ -91,17 +91,43 @@
         <H2 class="heading-36">FAQS</H2>
         <p class="para-16">Find answers to common questions and concerns about our services and assessments.</p>
         <div class="questions">
-            <div class="question">
-                <p class="para-question">How is ADHS diagnosed?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">
+                    <p class="para-question">How is ADHD diagnosed?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(1)">
+                </div>
+                <div class="answer">
+                    <p class="para-16">We use clinical interviews, observations and information from informants (parents, siblings
+                        or friends). When we have gathered this information, we consider other issues that could
+                        be affecting you, such as anxiety or depression. We then consider DSM IV criteria to see if
+                        criteria has been met. 
+                        </p>
+                </div>
             </div>
-            <div class="question">
-                <p class="para-question">How is ASD diagnosed?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">
+                    <p class="para-question">How is ASD diagnosed?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(2)">
+                </div>
+                <div class="answer">
+                    <p class="para-16">We use clinical interviews, observations and information from informants (parents, siblings
+                        or friends). When we have gathered this information, we consider other issues that could
+                        be affecting you such as anxiety or depression. We then consider DSM IV criteria to see if
+                        criteria has been met.
+                        </p>
+                </div>
             </div>
-            <div class="question">
-                <p class="para-question">How long does the assessment process take?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">
+                    <p class="para-question">How long does the assessment process take?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(3)">
+                </div>
+                <div class="answer">
+                    <p class="para-16">Assessments take a number of weeks. The exact length of an assessment depends on
+                        your availability and ours. We have flexible appointment times such as weekends to
+                        facilitate this.
+                        </p>
+                </div>
             </div>
         </div>
         <h4 class="heading-24">Contact Us</h4>
@@ -138,5 +164,15 @@
             <p class="thin copyright">© 2023 Psychological Consultations. All rights reserved.</p>
         </div>
     </section>
+    <script>
+        function toggleAnswer(questionNumber) {
+            var answer = document.querySelectorAll('.answer')[questionNumber - 1];
+            if (answer.style.display === 'none') {
+                answer.style.display = 'block';
+            } else {
+                answer.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>

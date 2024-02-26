@@ -97,25 +97,69 @@
     <section class="comments white-bg">
         <p class="comment">It’s been really worthwhile knowing that we are going through this process and we know that it’s being done properly by experts.</p>
     </section>
-    <section>
+    <section class="white-bg FAQs">
         <H2 class="heading-36">FAQS</H2>
-        <p class="para-16">Find answers to commonly asked questions about our combined assessments for adults.</p>
+        <p class="para-16">Find answers to common questions and concerns about our services and assessments.</p>
         <div class="questions">
-            <div class="question">
-                <p class="para-question">Can you have a diagnosis of both ADHD and ASD</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">
+                    <p class="para-question">How is ASD diagnosed?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(1)">
+                </div>
+                <div class="answer">
+                    <p class="para-16">We use a clinical interview, the ADI-R, the ADOS-2 observation and informant information
+                        to see if you meet DSM criteria for ASD.</p>
+                </div>
             </div>
-            <div class="question">
-                <p class="para-question">Is there an overlap between ASD and ADHD symptoms?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">                
+                    <p class="para-question">How long does the assessment process take?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(2)">
+                </div>
+                <div class="answer">
+                    <p class="para-16" style="font-size: 14px;">The assessment process takes a matter of weeks. The exact length of time depends on
+                        your availability and ours. 
+                        </p>
+                </div>
             </div>
-            <div class="question">
-                <p class="para-question">How can I book an assessment?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">                
+                    <p class="para-question">Can you have a diagnosis of both ADHD and ASD 
+                    </p>
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(3)">
+                </div>
+                <div class="answer">
+                    <p class="para-16">You can have all the appointments remotely except the ADOS-2 which is more effectively
+                        completed in person.</p>
+                </div>
+            </div>
+            <div class="question_container">
+                <div class="question">                
+                    <p class="para-question">Is there an overlap between ASD and ADHD symptoms? 
+                    </p>                    
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(4)">
+                </div>
+                <div class="answer">
+                    <p class="para-16" style="font-size: 14px;">Symptoms can appear similar, however, the understanding of why symptoms occur is
+                        crucial to determining whether diagnostic criteria are met. Our clinicians specialise in
+                        have experience of delivering ASD and ADHD assessments. We can therefore tease out
+                        information and assess effectively</p>
+                </div>
+            </div>
+            <div class="question_container">
+                <div class="question">                
+                    <p class="para-question">How can I book an assessment? 
+                    </p>                    
+                    <img src="./Assets/plus.png" alt="" srcset="" onclick="toggleAnswer(5)">
+                </div>
+                <div class="answer">
+                    <p class="para-16" style="font-size: 14px;">Assessments can be booked directly by phone on 0207 100 2990. Alternatively, please fill
+                        in the contact form on our website or email us at: enquiries@psychologicalconsultations.com </p>
+                </div>
             </div>
         </div>
         <h4 class="heading-24">Still have questions?</h4>
-        <p class="para-16">Schedule an appointment or contact us for more information</p>
+        <p class="para-16">Contact us for more information.</p>
         <button>Get in touch</button>
     </section>
     <section class="green-bg">
@@ -148,5 +192,15 @@
             <p class="thin copyright">© 2023 Psychological Consultations. All rights reserved.</p>
         </div>
     </section>
+    <script>
+        function toggleAnswer(questionNumber) {
+            var answer = document.querySelectorAll('.answer')[questionNumber - 1];
+            if (answer.style.display === 'none') {
+                answer.style.display = 'block';
+            } else {
+                answer.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
