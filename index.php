@@ -85,19 +85,25 @@
         <H2 class="heading-36">FAQS</H2>
         <p class="para-16">Find answers to common questions and concerns about our services and assessments.</p>
         <div class="questions">
-            <div class="question">
-                <p class="para-question">What services do you offer?</p>
-                <img src="./Assets/plus.png" alt="" srcset="">
+            <div class="question_container">
+                <div class="question">
+                    <p class="para-question">What services do you offer?</p>
+                    <img src="./Assets/plus.png" alt="" srcset="">
+                </div>
+                <div class="answer">
+                    <p class="para-16">We offer ASD, ADHD and combined ASD and ADHD assessments, for adults and
+children.</p>
+                </div>
             </div>
-            <div class="question">
+            <div class="question_container">
                 <p class="para-question">How can I book an assessment?</p>
                 <img src="./Assets/plus.png" alt="" srcset="">
             </div>
-            <div class="question">
+            <div class="question_container">
                 <p class="para-question">Do you accept insurance?</p>
                 <img src="./Assets/plus.png" alt="" srcset="">
             </div>
-            <div class="question">
+            <div class="question_container">
                 <p class="para-question">What is your cancellation <br>policy?</p>
                 <img src="./Assets/plus.png" alt="" srcset="">
             </div>
